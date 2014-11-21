@@ -64,7 +64,7 @@ def MazeGen(l_side, n_players, players_l_path_deviation):
         cells[y][x] = Blocks.Player
     return cells            
                         
-f = open('bludisko.txt', 'w')
+f = open('maze.txt', 'w')
 n_players = 4
 l_side = 20
 #(0<->1); not quite, the name is a bit misleading but whatever
